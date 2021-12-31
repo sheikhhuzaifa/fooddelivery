@@ -12,6 +12,7 @@ const tabs = [
       "https://b.zmtcdn.com/data/o2_assets/246bbd71fbba420d5996452be3024d351616150055.png",
   },
   {
+    
     id: 2,
     name: "PickUp",
     active_img:
