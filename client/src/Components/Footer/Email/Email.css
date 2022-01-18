@@ -1,0 +1,26 @@
+.kl
+{
+    background-image: url('https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+ background-repeat: no-repeat;
+ background-size: 1400px 900px;
+ height: 665px;
+
+}
+.form_1
+{
+    margin-top: 150px;
+    margin-left: 500px;
+}
+.ko
+{
+    margin-left: 120px;
+}
+h1{
+    text-align: center;
+}
+label
+{
+    color: white;
+    font-size: 24px;
+    margin-right: 5px;
+}

@@ -5,6 +5,7 @@ import './F_P.css'
 
 const FormPage = () => {
     const history=useNavigate();
+   
     const[email,setEmail]=useState('')
     const[password,setPassword]=useState('')
     const loginUser = async (e) =>
@@ -23,17 +24,20 @@ const FormPage = () => {
             })
         });
         const data=await res.json();
-        if(DataTransfer.status===422|| !data)
+        console.log(res.status)
+        if(res.status===200&&data)
+        {
+            window.alert("valid");
+            console.log("success");
+            history("/");
+            
+        }
+        else
         {
             window.alert("invalid");
             console.log("not success");
         }
-        else
-        {
-            window.alert("valid");
-            console.log("success");
-        }
-        history("/");
+        
     }
 return (
     
@@ -56,9 +60,10 @@ return (
                 onChange={(e)=>setPassword(e.target.value)}
                 />
                  <a id="s_u" href="Signup">signup</a>
+                 <a id="f_p" href="    ForgetPassword">ForgetPassword</a>
                 <div className="wrapper">
                         <span className="group-btn" onClick={loginUser}>
-                            <a href="N_B.js" className="btn btn-danger btn-md">login <i className="fa fa-sign-in"></i></a>
+                               <a href="/" className="btn btn-danger btn-md">login <i className="fa fa-sign-in"></i></a>
                         </span>
                 </div>
             </div>

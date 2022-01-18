@@ -8,21 +8,21 @@ import NextArrow from "../../carousel/nextArrow";
 const deliveryItems = [
   {
     id: 1,
-    title: "Pastri",
+    title: "Pizza",
     cover:
-      "https://media.istockphoto.com/photos/fresh-cakes-picture-id497959594?s=612x612",
+      "https://images.unsplash.com/photo-1574126154517-d1e0d89ef734?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
   },
   {
     id: 2,
-    title: "Biscuit",
+    title: "Burger",
     cover:
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
+      "https://media.istockphoto.com/photos/cheeseburger-with-tomato-and-lettuce-on-wooden-board-picture-id1309352410",
   },
   {
     id: 3,
-    title: "Cakes",
+    title: "Rolls",
     cover:
-      "",
+      "https://images.unsplash.com/photo-1582454235987-1e597bafcf58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
   },
   {
     id: 4,

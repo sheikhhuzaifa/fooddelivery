@@ -1,14 +1,13 @@
 import React from "react";
-import { restaurants } from "../../data/Resturants";
-
+import { restaurants } from "../../data1/Resturants";
 import ExploreSection from "../exploreSection/index";
+
+
 import Filters from "../filters";
 
 import "./Delivery.css";
-import DeliveryColletions from "../PickUp/deliveryCollection/DeliveryCollection";
+import DeliveryColletions from "../Shop/deliveryCollection/DeliveryCollection";
 import TopBrands from "./topBrands/TopBrands";
-
-
 
 const deliveryFilters = [
   {
@@ -38,49 +37,10 @@ const deliveryFilters = [
     title: "Great Offers",
   },
 ];
-const productItems=[
-  {
-  id: "1",
-  name: "Shawarma",
-  price: 180,
-  image: "./pics/190130-chicken-shwarma-horizontal-1551285400.png"
-  },
-  {
-  id: "2",
-  name: "Biryani",
-  price: 250,
-  image: "./pics/bir.jpg"
-  },
-  {
-  id: "3",
-  name: "Zinger Burger",
-  price: 199,
-  image: "./pics/zinger.jpg"
-  },
-  {
-  id: "4",
-  name: "Continental Pizza",
-  price: 890,
-  image: "./pics/pizza.jpg"
-  },
-  {
-      id: "5",
-      name: "Cream Chart",
-      price: 120,
-      image: "./pics/cream.jpg"
-  },
-  {
-      id: "6",
-      name: "Ice Cream",
-      price: 80,
-      image: "./pics/download.jpg"
-  }
-];
 
 const restaurantsList = restaurants;
+
 const Delivery = () => {
-
-
   return (
     <div>
       <div className="max-width">
@@ -92,6 +52,7 @@ const Delivery = () => {
         restaurants={restaurantsList}
         collectionName="Delivery Restaurants in Faislabad"
       />
+     
     </div>
   );
 };

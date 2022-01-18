@@ -32,7 +32,8 @@ const tabs = [
   },
 ];
 
-const TabOptions = ({ activeTab, setActiveTab }) => {
+const TabOptions = ({ activeTab, setActiveTab ,
+}) => {
   return (
     <div className="tab-options">
       <div className="options-wrapper max-width">

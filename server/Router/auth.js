@@ -48,6 +48,7 @@ router.post('/signin',async(req,res)=>
       return res.send(400).json({error:"plz filled the data"});
     }
     const userLogin=await User.findOne({email:email});
+    
     if(userLogin)
     {
       const isMatch=await bcrypt.compare(password,userLogin.password);

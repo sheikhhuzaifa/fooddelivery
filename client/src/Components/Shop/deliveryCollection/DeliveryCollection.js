@@ -22,25 +22,25 @@ const deliveryItems = [
     id: 3,
     title: "Cakes",
     cover:
-      "",
+      "https://images.unsplash.com/photo-1506459225024-1428097a7e18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
   },
   {
     id: 4,
-    title: "Cake",
+    title: "bread",
     cover:
-      "https://media.istockphoto.com/photos/image-homemade-halloween-layered-sponge-cake-on-marble-cake-stand-in-picture-id1337812284",
+      "https://images.unsplash.com/photo-1598373182133-52452f7691ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
   },
   {
     id: 5,
-    title: "Biryani",
+    title: "eggs",
     cover:
-      "https://media.istockphoto.com/photos/chicken-biryani-with-yogurt-dip-popular-indian-pakistani-non-food-picture-id1254720533",
+      "https://media.istockphoto.com/photos/eggs-picture-id91261622?s=612x612",
   },
   {
     id: 6,
-    title: "Chaat",
+    title: "Peanuts",
     cover:
-      "https://media.istockphoto.com/photos/goal-gappa-or-pani-puri-picture-id1314329942",
+      "https://media.istockphoto.com/photos/nuts-peanuts-isolated-on-white-background-picture-id545788236?s=612x612",
   },
   {
     id: 7,
@@ -50,21 +50,21 @@ const deliveryItems = [
   },
   {
     id: 8,
-    title: "Paneer",
+    title: "Chips",
     cover:
-      "https://media.istockphoto.com/photos/paneer-korma-kurma-or-quorma-is-a-popular-indian-main-course-recipe-picture-id1195395081",
+      "https://media.istockphoto.com/photos/chips-spilling-out-of-an-open-bag-picture-id174634598?s=612x612",
   },
   {
     id: 9,
-    title: "Samosa",
+    title: "Juice",
     cover:
-      "https://media.istockphoto.com/photos/indian-baked-stuffed-pastry-samosa-picture-id1152493489",
+      "https://media.istockphoto.com/photos/healthy-rainbow-colored-fruits-and-vegetables-smoothies-isolated-on-picture-id1304936721?s=612x612",
   },
   {
     id: 10,
-    title: "Paratha",
+    title: "drinks",
     cover:
-      "https://media.istockphoto.com/photos/image-of-metal-tray-with-aloo-paratha-pile-topped-with-red-onion-and-picture-id1279134622",
+      "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
   },
   {
     id: 11,

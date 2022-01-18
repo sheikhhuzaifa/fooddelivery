@@ -30,26 +30,30 @@ const Signup = () => {
             })
         });
         const data=await res.json();
-        if(DataTransfer.status===422|| !data)
-        {
-            window.alert("invalid");
-            console.log("not success");
-        }
-        else
+        if(res.status===201&&data)
         {
             window.alert("valid");
             console.log("success");
+            console.log(res.status)
+            history("/FormPage");
         }
-        history("/FormPage");
+        else
+        {
+            console.log(res.status)
+            window.alert("invalid");
+            console.log("not success");
+            
+        }
+        
     }
     return (
         <div className="login">
 
     <div className="row">
         <div className="rw col-md-offset-5 col-md-4 text-center">
-            <h1 className='text-white'>Login Form</h1>
+            <h1 className='text-white'>SignUp Form</h1>
               <div className="form-login">
-                <h4>Secure Login</h4>
+                <h4>SignUp</h4>
                 
                 <input type="email" name="email" id="userName" className="form-control input-sm chat-input" placeholder="Enter Email"
                 value={user.email}
@@ -64,10 +68,10 @@ const Signup = () => {
                         value={user.cpassword}
                         onChange={handleInputs}
                 />
-                 <a id="s_u" href="Signup">signup</a>
+                 <a id="s_u" href="FormPage">Login</a>
                 <div className="wrapper">
                         <span className="group-btn" onClick={PostData}>
-                            <a href="N_B.js" className="btn btn-danger btn-md">login <i className="fa fa-sign-in"></i></a>
+                            <a href="/FormPage" className="btn btn-danger btn-md">Register <i className="fa fa-sign-in"></i></a>
                         </span>
                 </div>
             </div>
